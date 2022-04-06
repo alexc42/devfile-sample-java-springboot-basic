@@ -15,6 +15,15 @@ public class DemoApplication {
         return "Hello World!";
     }
 
+    @RequestMapping("/Manolo")
+    String home() {
+        return "Hello World Manolo!";
+    }
+
+     @RequestMapping("/Juan")
+    String home() {
+        return "Hello World Juan!";
+    } 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
